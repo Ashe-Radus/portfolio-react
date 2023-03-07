@@ -1,4 +1,5 @@
 import React from 'react';
+import './styling/Navbar.css';
 
 const styles = {
     card:{
@@ -12,9 +13,23 @@ const styles = {
 
 function Navbar() {
     return (
-        <div style={styles.card}>
-            <div style={styles.heading}>Home</div>
-        </div>
+        <nav style={styles.navbarStyle} className="Navbar">
+           <ul>
+            <li>
+            <a href="/"> About me</a>
+            </li>
+            <li>
+            <a href="/"> Resume</a>
+            </li>
+            <li>
+            <a href="/"> Contact</a>
+            </li>
+            <li>
+            <a href="/"> Projects</a>
+            </li>      
+            
+            </ul>
+            </nav>
     );
 }
 
