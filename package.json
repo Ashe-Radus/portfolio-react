@@ -4,8 +4,8 @@
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
     "homepage": "https://myusername.github.io"
-  }
-  "scripts": {
+  },
+  "Scripts": {
        "predeploy": "npm run build",
        "deploy": "gh-pages -b master -d build",
         "start": "react-scripts start",
