@@ -3,8 +3,14 @@ import React from 'react';
  function Footer() {
     return (
         <div>
-            <a href =""> LinkedIn</a>
-            <a href="">GitHub Repo</a>
+            <ul>
+                <li>
+                <a href =""> LinkedIn</a>
+                </li>
+                <li>
+                <a href="">GitHub Repo</a>
+                </li>
+            </ul>
         </div>
     )
 }

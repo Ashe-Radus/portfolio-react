@@ -6,7 +6,7 @@ export default function Resume(){
             <h1>Resume</h1>
         <div>
             <h2>Proficiencies</h2>
-            <p> </p>
+            <p> MERN, MySQL, and React. </p>
 
             <a href=""> Resume Link</a>
         </div>
