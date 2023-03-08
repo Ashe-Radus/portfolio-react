@@ -6,9 +6,10 @@ import Project from './components/project';
 import AboutMe from './components/pages/aboutme';
 import Resume from './components/pages/resume';
 
+
 function App() {
   return (
-    <div>
+    <div> 
       <Navbar />
       <Header />
       <AboutMe />
